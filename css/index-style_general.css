@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.tit-prin{
+    margin: 2em;
+}
+body{
+    background-color: black;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav_static h1{
+    background-color: black;
+    color: white;
+}
+.nav_static{
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    transition: height 2s;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 3em;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    height:30%;
+}
+nav ul li a{
+    color: #fefefe;
+    background-color: #704cec;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    margin: 0 0.5em;
+}
+.li-im{
+    background-color: #704cec;
+}
+.li-p{
+    background-color: #2593be;
+}
+/* EL <a> ES ELEMENTO EN LINEA, no se puede redimensionar*/
+/* EL <a> ES ELEMENTO EN LINEA, no se puede redimensionar*/
+/* EL <a> ES ELEMENTO EN LINEA, no se puede redimensionar*/
+nav ul li a{ 
+    transition: background 2s, border 2s;  
+    margin: 0 2em;
+}
+nav ul li a:hover{
+    background: rgba(255, 255, 255, 0.773);
+
+}
+section.caratula{
+    background: linear-gradient(to left, rgb(255 255 255), rgb(234 243 240));
+    padding: 3rem 0;
+}
+.containerCaratula{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+.col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgCaratula{
+    width: 70%;
+    border: solid  #704cec;
+    border-radius: 1em;
+    transition: transform 2s, border 2s;
+}
+.imgCaratula:hover{
+    transform: scale(1.2);
+    border: solid #2593be;    
+}
+.col2{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: #fff solid;
+    border-radius: 1em;
+    border: solid #2593be; 
+    transition: transform 2s, border 2s;
+}
+.col2:hover{
+    transform: scale(1.2);
+    border: solid #704cec;    
+}
+h1{
+    font-size: 2rem;
+    color:rgb(74, 98, 205);
+}
+
+#txtCaratula{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+    color: #1eb1eb;
+}
+
+#titCaratula{
+    color:#704cec;
+}
+.btnCaratula{
+    background: rgba(74, 98, 205, 0.74);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.img {
+    width: 200px; /* Cambia este valor al ancho deseado */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+    border: 1px solid #ccc; /* Puedes agregar un borde si lo deseas */
+  }
+/*Pruebas Dalto*/
+/*Pruebas Dalto*/
+

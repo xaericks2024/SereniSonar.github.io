@@ -1,0 +1,221 @@
+/*Seccon de Servicios*/
+div p{
+    color: white;
+}
+h2, h3{
+    color:white;
+}
+.services{
+    padding:3rem 0;
+}
+.SubServices{
+    text-align:center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+}
+.containeS{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap:2rem;
+}
+.boxS{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0/ 6%);
+    border: white solid;
+}
+.boxS img{
+    width: 100px;
+}
+.box h3{
+    color: #4c4c4c;
+    margin: 10px 0;
+}
+.boxS p{
+    text-align: center;
+}
+
+/*Seccion Portafolio*/
+.portafolio{
+    padding:3rem 0;
+}
+.SubPortafolio{
+    text-align:center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+
+}
+.containeP{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    grid-gap:2rem;
+}
+.boxP{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0/ 6%);
+    border: white solid;
+}
+.boxP img{
+    width: 100px;
+}
+.box h3{
+color: #4c4c4c;
+margin: 10px 0;
+}
+.boxP p{
+    text-align: center;
+}
+
+/*Contacto*/
+.contenedor,
+.wave.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+
+.titulo{
+    color:#fff
+}
+
+.contenedor{
+    padding: 80px 0;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    border: 1px solid white;
+ 
+    background: #6f4cec5c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 2s;
+}
+.input::placeholder{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.input:focus{
+    background: #2593be79;
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+}
+/*Pie de Pagina - Footer*/
+footer{
+    background-color: #2593be71;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    transition: background-color 1s;
+}
+footer:hover{
+    background-color: #6f4cec75;
+}
+
+/*COLORES   */ 
+
+#boxS1, #boxS3, #boxP2{
+    border: #2593be solid;
+    transition: background 2s;
+    border-radius: 2em;
+}
+#boxS1:hover, #boxS3:hover, #boxP2:hover{
+    background: #2593be;
+}
+#boxP1, #boxP3, #boxS2{
+    border: #704cec solid;
+    transition: background 2s;
+    border-radius: 2em;
+}
+#boxP1:hover, #boxP3:hover, #boxS2:hover{
+    background: #704cec
+}
+
+.img {
+    width: 12em !important; /* Cambia este valor al ancho deseado */
+    height: 11em; /* Esto mantiene la proporción original de la imagen */
+    overflow: auto;
+    border-radius: 2em;
+    margin-bottom: 1em;
+  }
+
+.h2-pre{
+    margin: 1.2em;
+}
+
+.capa{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background: #1c1c1d;
+opacity:0.5;
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Color del texto, ajusta según tu diseño */
+    text-align: center;
+    z-index: 1;
+}
